@@ -1,0 +1,1422 @@
+2023-08-21 20:02:24,295:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-08-21 20:02:24,295:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-08-21 20:02:24,295:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-08-21 20:02:24,295:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-08-21 20:02:27,682:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\numba\core\decorators.py:262: NumbaDeprecationWarning: [1mnumba.generated_jit is deprecated. Please see the documentation at: https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-generated-jit for more information and advice on a suitable replacement.[0m
+  warnings.warn(msg, NumbaDeprecationWarning)
+
+2023-08-21 20:02:27,729:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\visions\backends\shared\nan_handling.py:51: NumbaDeprecationWarning: [1mThe 'nopython' keyword argument was not supplied to the 'numba.jit' decorator. The implicit default value for this argument is currently False, but it will be changed to True in Numba 0.59.0. See https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit for details.[0m
+  def hasna(x: np.ndarray) -> bool:
+
+2023-08-21 20:02:28,052:WARNING:C:\Users\atharva\Desktop\automl\app.py:6: DeprecationWarning: `import pandas_profiling` is going to be deprecated by April 1st. Please use `import ydata_profiling` instead.
+  import pandas_profiling
+
+2023-08-21 20:06:53,600:INFO:PyCaret ClassificationExperiment
+2023-08-21 20:06:53,602:INFO:Logging name: clf-default-name
+2023-08-21 20:06:53,602:INFO:ML Usecase: MLUsecase.CLASSIFICATION
+2023-08-21 20:06:53,602:INFO:version 3.0.4
+2023-08-21 20:06:53,602:INFO:Initializing setup()
+2023-08-21 20:06:53,602:INFO:self.USI: 2e30
+2023-08-21 20:06:53,602:INFO:self._variable_keys: {'exp_name_log', 'fold_groups_param', 'idx', 'y', 'pipeline', 'X_train', 'fold_generator', 'html_param', 'log_plots_param', 'y_test', 'memory', 'fix_imbalance', 'exp_id', 'n_jobs_param', 'seed', '_available_plots', 'USI', 'X_test', 'logging_param', 'target_param', 'X', 'gpu_param', 'fold_shuffle_param', 'is_multiclass', 'y_train', 'data', 'gpu_n_jobs_param', '_ml_usecase'}
+2023-08-21 20:06:53,602:INFO:Checking environment
+2023-08-21 20:06:53,602:INFO:python_version: 3.9.17
+2023-08-21 20:06:53,602:INFO:python_build: ('main', 'Jul  5 2023 20:47:11')
+2023-08-21 20:06:53,602:INFO:machine: AMD64
+2023-08-21 20:06:53,619:INFO:platform: Windows-10-10.0.22621-SP0
+2023-08-21 20:06:53,631:INFO:Memory: svmem(total=7893950464, available=490151936, percent=93.8, used=7403798528, free=490151936)
+2023-08-21 20:06:53,631:INFO:Physical Core: 6
+2023-08-21 20:06:53,631:INFO:Logical Core: 12
+2023-08-21 20:06:53,631:INFO:Checking libraries
+2023-08-21 20:06:53,633:INFO:System:
+2023-08-21 20:06:53,633:INFO:    python: 3.9.17 (main, Jul  5 2023, 20:47:11) [MSC v.1916 64 bit (AMD64)]
+2023-08-21 20:06:53,633:INFO:executable: C:\Users\atharva\anaconda3\envs\streamlit\python.exe
+2023-08-21 20:06:53,633:INFO:   machine: Windows-10-10.0.22621-SP0
+2023-08-21 20:06:53,633:INFO:PyCaret required dependencies:
+2023-08-21 20:06:53,683:INFO:                 pip: 23.2.1
+2023-08-21 20:06:53,684:INFO:          setuptools: 68.0.0
+2023-08-21 20:06:53,684:INFO:             pycaret: 3.0.4
+2023-08-21 20:06:53,684:INFO:             IPython: 8.14.0
+2023-08-21 20:06:53,684:INFO:          ipywidgets: 8.1.0
+2023-08-21 20:06:53,684:INFO:                tqdm: 4.66.1
+2023-08-21 20:06:53,684:INFO:               numpy: 1.23.5
+2023-08-21 20:06:53,684:INFO:              pandas: 1.5.3
+2023-08-21 20:06:53,684:INFO:              jinja2: 3.1.2
+2023-08-21 20:06:53,684:INFO:               scipy: 1.11.2
+2023-08-21 20:06:53,684:INFO:              joblib: 1.3.2
+2023-08-21 20:06:53,684:INFO:             sklearn: 1.2.2
+2023-08-21 20:06:53,684:INFO:                pyod: 1.1.0
+2023-08-21 20:06:53,684:INFO:            imblearn: 0.11.0
+2023-08-21 20:06:53,685:INFO:   category_encoders: 2.6.2
+2023-08-21 20:06:53,685:INFO:            lightgbm: 4.0.0
+2023-08-21 20:06:53,685:INFO:               numba: 0.57.1
+2023-08-21 20:06:53,685:INFO:            requests: 2.31.0
+2023-08-21 20:06:53,685:INFO:          matplotlib: 3.7.2
+2023-08-21 20:06:53,685:INFO:          scikitplot: 0.3.7
+2023-08-21 20:06:53,685:INFO:         yellowbrick: 1.5
+2023-08-21 20:06:53,685:INFO:              plotly: 5.16.1
+2023-08-21 20:06:53,685:INFO:    plotly-resampler: Not installed
+2023-08-21 20:06:53,685:INFO:             kaleido: 0.2.1
+2023-08-21 20:06:53,685:INFO:           schemdraw: 0.15
+2023-08-21 20:06:53,685:INFO:         statsmodels: 0.14.0
+2023-08-21 20:06:53,685:INFO:              sktime: 0.22.0
+2023-08-21 20:06:53,685:INFO:               tbats: 1.1.3
+2023-08-21 20:06:53,686:INFO:            pmdarima: 2.0.3
+2023-08-21 20:06:53,686:INFO:              psutil: 5.9.5
+2023-08-21 20:06:53,686:INFO:          markupsafe: 2.1.3
+2023-08-21 20:06:53,686:INFO:             pickle5: Not installed
+2023-08-21 20:06:53,686:INFO:         cloudpickle: 2.2.1
+2023-08-21 20:06:53,686:INFO:         deprecation: 2.1.0
+2023-08-21 20:06:53,686:INFO:              xxhash: 3.3.0
+2023-08-21 20:06:53,686:INFO:           wurlitzer: Not installed
+2023-08-21 20:06:53,686:INFO:PyCaret optional dependencies:
+2023-08-21 20:06:53,703:INFO:                shap: Not installed
+2023-08-21 20:06:53,706:INFO:           interpret: Not installed
+2023-08-21 20:06:53,706:INFO:                umap: Not installed
+2023-08-21 20:06:53,706:INFO:    pandas_profiling: 4.5.1
+2023-08-21 20:06:53,706:INFO:  explainerdashboard: Not installed
+2023-08-21 20:06:53,706:INFO:             autoviz: Not installed
+2023-08-21 20:06:53,706:INFO:           fairlearn: Not installed
+2023-08-21 20:06:53,706:INFO:          deepchecks: Not installed
+2023-08-21 20:06:53,706:INFO:             xgboost: Not installed
+2023-08-21 20:06:53,706:INFO:            catboost: Not installed
+2023-08-21 20:06:53,706:INFO:              kmodes: Not installed
+2023-08-21 20:06:53,706:INFO:             mlxtend: Not installed
+2023-08-21 20:06:53,706:INFO:       statsforecast: Not installed
+2023-08-21 20:06:53,706:INFO:        tune_sklearn: Not installed
+2023-08-21 20:06:53,706:INFO:                 ray: Not installed
+2023-08-21 20:06:53,706:INFO:            hyperopt: Not installed
+2023-08-21 20:06:53,706:INFO:              optuna: Not installed
+2023-08-21 20:06:53,706:INFO:               skopt: Not installed
+2023-08-21 20:06:53,706:INFO:              mlflow: Not installed
+2023-08-21 20:06:53,707:INFO:              gradio: Not installed
+2023-08-21 20:06:53,707:INFO:             fastapi: Not installed
+2023-08-21 20:06:53,707:INFO:             uvicorn: Not installed
+2023-08-21 20:06:53,707:INFO:              m2cgen: Not installed
+2023-08-21 20:06:53,707:INFO:           evidently: Not installed
+2023-08-21 20:06:53,707:INFO:               fugue: Not installed
+2023-08-21 20:06:53,707:INFO:           streamlit: 1.25.0
+2023-08-21 20:06:53,707:INFO:             prophet: Not installed
+2023-08-21 20:06:53,707:INFO:None
+2023-08-21 20:06:53,707:INFO:Set up data.
+2023-08-21 20:09:31,938:INFO:PyCaret ClassificationExperiment
+2023-08-21 20:09:31,938:INFO:Logging name: clf-default-name
+2023-08-21 20:09:31,938:INFO:ML Usecase: MLUsecase.CLASSIFICATION
+2023-08-21 20:09:31,938:INFO:version 3.0.4
+2023-08-21 20:09:31,939:INFO:Initializing setup()
+2023-08-21 20:09:31,939:INFO:self.USI: 7cf2
+2023-08-21 20:09:31,939:INFO:self._variable_keys: {'exp_name_log', 'fold_groups_param', 'idx', 'y', 'pipeline', 'X_train', 'fold_generator', 'html_param', 'log_plots_param', 'y_test', 'memory', 'fix_imbalance', 'exp_id', 'n_jobs_param', 'seed', '_available_plots', 'USI', 'X_test', 'logging_param', 'target_param', 'X', 'gpu_param', 'fold_shuffle_param', 'is_multiclass', 'y_train', 'data', 'gpu_n_jobs_param', '_ml_usecase'}
+2023-08-21 20:09:31,939:INFO:Checking environment
+2023-08-21 20:09:31,939:INFO:python_version: 3.9.17
+2023-08-21 20:09:31,941:INFO:python_build: ('main', 'Jul  5 2023 20:47:11')
+2023-08-21 20:09:31,941:INFO:machine: AMD64
+2023-08-21 20:09:31,941:INFO:platform: Windows-10-10.0.22621-SP0
+2023-08-21 20:09:31,948:INFO:Memory: svmem(total=7893950464, available=395972608, percent=95.0, used=7497977856, free=395972608)
+2023-08-21 20:09:31,948:INFO:Physical Core: 6
+2023-08-21 20:09:31,948:INFO:Logical Core: 12
+2023-08-21 20:09:31,948:INFO:Checking libraries
+2023-08-21 20:09:31,948:INFO:System:
+2023-08-21 20:09:31,948:INFO:    python: 3.9.17 (main, Jul  5 2023, 20:47:11) [MSC v.1916 64 bit (AMD64)]
+2023-08-21 20:09:31,948:INFO:executable: C:\Users\atharva\anaconda3\envs\streamlit\python.exe
+2023-08-21 20:09:31,949:INFO:   machine: Windows-10-10.0.22621-SP0
+2023-08-21 20:09:31,949:INFO:PyCaret required dependencies:
+2023-08-21 20:09:31,949:INFO:                 pip: 23.2.1
+2023-08-21 20:09:31,949:INFO:          setuptools: 68.0.0
+2023-08-21 20:09:31,949:INFO:             pycaret: 3.0.4
+2023-08-21 20:09:31,949:INFO:             IPython: 8.14.0
+2023-08-21 20:09:31,949:INFO:          ipywidgets: 8.1.0
+2023-08-21 20:09:31,951:INFO:                tqdm: 4.66.1
+2023-08-21 20:09:31,951:INFO:               numpy: 1.23.5
+2023-08-21 20:09:31,951:INFO:              pandas: 1.5.3
+2023-08-21 20:09:31,952:INFO:              jinja2: 3.1.2
+2023-08-21 20:09:31,952:INFO:               scipy: 1.11.2
+2023-08-21 20:09:31,952:INFO:              joblib: 1.3.2
+2023-08-21 20:09:31,952:INFO:             sklearn: 1.2.2
+2023-08-21 20:09:31,953:INFO:                pyod: 1.1.0
+2023-08-21 20:09:31,953:INFO:            imblearn: 0.11.0
+2023-08-21 20:09:31,953:INFO:   category_encoders: 2.6.2
+2023-08-21 20:09:31,953:INFO:            lightgbm: 4.0.0
+2023-08-21 20:09:31,953:INFO:               numba: 0.57.1
+2023-08-21 20:09:31,953:INFO:            requests: 2.31.0
+2023-08-21 20:09:31,956:INFO:          matplotlib: 3.7.2
+2023-08-21 20:09:31,956:INFO:          scikitplot: 0.3.7
+2023-08-21 20:09:31,956:INFO:         yellowbrick: 1.5
+2023-08-21 20:09:31,956:INFO:              plotly: 5.16.1
+2023-08-21 20:09:31,956:INFO:    plotly-resampler: Not installed
+2023-08-21 20:09:31,956:INFO:             kaleido: 0.2.1
+2023-08-21 20:09:31,956:INFO:           schemdraw: 0.15
+2023-08-21 20:09:31,957:INFO:         statsmodels: 0.14.0
+2023-08-21 20:09:31,957:INFO:              sktime: 0.22.0
+2023-08-21 20:09:31,957:INFO:               tbats: 1.1.3
+2023-08-21 20:09:31,957:INFO:            pmdarima: 2.0.3
+2023-08-21 20:09:31,957:INFO:              psutil: 5.9.5
+2023-08-21 20:09:31,957:INFO:          markupsafe: 2.1.3
+2023-08-21 20:09:31,957:INFO:             pickle5: Not installed
+2023-08-21 20:09:31,957:INFO:         cloudpickle: 2.2.1
+2023-08-21 20:09:31,957:INFO:         deprecation: 2.1.0
+2023-08-21 20:09:31,957:INFO:              xxhash: 3.3.0
+2023-08-21 20:09:31,957:INFO:           wurlitzer: Not installed
+2023-08-21 20:09:31,957:INFO:PyCaret optional dependencies:
+2023-08-21 20:09:31,957:INFO:                shap: Not installed
+2023-08-21 20:09:31,957:INFO:           interpret: Not installed
+2023-08-21 20:09:31,957:INFO:                umap: Not installed
+2023-08-21 20:09:31,957:INFO:    pandas_profiling: 4.5.1
+2023-08-21 20:09:31,957:INFO:  explainerdashboard: Not installed
+2023-08-21 20:09:31,957:INFO:             autoviz: Not installed
+2023-08-21 20:09:31,957:INFO:           fairlearn: Not installed
+2023-08-21 20:09:31,957:INFO:          deepchecks: Not installed
+2023-08-21 20:09:31,957:INFO:             xgboost: Not installed
+2023-08-21 20:09:31,957:INFO:            catboost: Not installed
+2023-08-21 20:09:31,957:INFO:              kmodes: Not installed
+2023-08-21 20:09:31,957:INFO:             mlxtend: Not installed
+2023-08-21 20:09:31,964:INFO:       statsforecast: Not installed
+2023-08-21 20:09:31,964:INFO:        tune_sklearn: Not installed
+2023-08-21 20:09:31,964:INFO:                 ray: Not installed
+2023-08-21 20:09:31,964:INFO:            hyperopt: Not installed
+2023-08-21 20:09:31,964:INFO:              optuna: Not installed
+2023-08-21 20:09:31,964:INFO:               skopt: Not installed
+2023-08-21 20:09:31,964:INFO:              mlflow: Not installed
+2023-08-21 20:09:31,964:INFO:              gradio: Not installed
+2023-08-21 20:09:31,964:INFO:             fastapi: Not installed
+2023-08-21 20:09:31,964:INFO:             uvicorn: Not installed
+2023-08-21 20:09:31,964:INFO:              m2cgen: Not installed
+2023-08-21 20:09:31,966:INFO:           evidently: Not installed
+2023-08-21 20:09:31,966:INFO:               fugue: Not installed
+2023-08-21 20:09:31,966:INFO:           streamlit: 1.25.0
+2023-08-21 20:09:31,966:INFO:             prophet: Not installed
+2023-08-21 20:09:31,966:INFO:None
+2023-08-21 20:09:31,966:INFO:Set up data.
+2023-08-21 20:35:40,072:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-08-21 20:35:40,072:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-08-21 20:35:40,072:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-08-21 20:35:40,072:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-08-21 20:35:42,858:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\numba\core\decorators.py:262: NumbaDeprecationWarning: [1mnumba.generated_jit is deprecated. Please see the documentation at: https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-generated-jit for more information and advice on a suitable replacement.[0m
+  warnings.warn(msg, NumbaDeprecationWarning)
+
+2023-08-21 20:35:42,896:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\visions\backends\shared\nan_handling.py:51: NumbaDeprecationWarning: [1mThe 'nopython' keyword argument was not supplied to the 'numba.jit' decorator. The implicit default value for this argument is currently False, but it will be changed to True in Numba 0.59.0. See https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit for details.[0m
+  def hasna(x: np.ndarray) -> bool:
+
+2023-08-21 20:35:43,206:WARNING:C:\Users\atharva\Desktop\automl\app.py:6: DeprecationWarning: `import pandas_profiling` is going to be deprecated by April 1st. Please use `import ydata_profiling` instead.
+  import pandas_profiling
+
+2023-08-21 20:38:54,070:INFO:PyCaret ClassificationExperiment
+2023-08-21 20:38:54,072:INFO:Logging name: clf-default-name
+2023-08-21 20:38:54,072:INFO:ML Usecase: MLUsecase.CLASSIFICATION
+2023-08-21 20:38:54,072:INFO:version 3.0.4
+2023-08-21 20:38:54,072:INFO:Initializing setup()
+2023-08-21 20:38:54,072:INFO:self.USI: f6e9
+2023-08-21 20:38:54,072:INFO:self._variable_keys: {'n_jobs_param', 'gpu_n_jobs_param', 'fold_shuffle_param', 'fold_generator', 'y_test', 'is_multiclass', 'X', 'html_param', 'X_train', 'idx', 'seed', '_ml_usecase', 'X_test', '_available_plots', 'target_param', 'data', 'fix_imbalance', 'pipeline', 'y_train', 'USI', 'memory', 'exp_name_log', 'y', 'log_plots_param', 'logging_param', 'gpu_param', 'fold_groups_param', 'exp_id'}
+2023-08-21 20:38:54,072:INFO:Checking environment
+2023-08-21 20:38:54,072:INFO:python_version: 3.9.17
+2023-08-21 20:38:54,072:INFO:python_build: ('main', 'Jul  5 2023 20:47:11')
+2023-08-21 20:38:54,072:INFO:machine: AMD64
+2023-08-21 20:38:54,087:INFO:platform: Windows-10-10.0.22621-SP0
+2023-08-21 20:38:54,090:INFO:Memory: svmem(total=7893950464, available=468930560, percent=94.1, used=7425019904, free=468930560)
+2023-08-21 20:38:54,090:INFO:Physical Core: 6
+2023-08-21 20:38:54,090:INFO:Logical Core: 12
+2023-08-21 20:38:54,090:INFO:Checking libraries
+2023-08-21 20:38:54,095:INFO:System:
+2023-08-21 20:38:54,095:INFO:    python: 3.9.17 (main, Jul  5 2023, 20:47:11) [MSC v.1916 64 bit (AMD64)]
+2023-08-21 20:38:54,095:INFO:executable: C:\Users\atharva\anaconda3\envs\streamlit\python.exe
+2023-08-21 20:38:54,095:INFO:   machine: Windows-10-10.0.22621-SP0
+2023-08-21 20:38:54,095:INFO:PyCaret required dependencies:
+2023-08-21 20:38:54,130:INFO:                 pip: 23.2.1
+2023-08-21 20:38:54,131:INFO:          setuptools: 68.0.0
+2023-08-21 20:38:54,131:INFO:             pycaret: 3.0.4
+2023-08-21 20:38:54,131:INFO:             IPython: 8.14.0
+2023-08-21 20:38:54,131:INFO:          ipywidgets: 8.1.0
+2023-08-21 20:38:54,131:INFO:                tqdm: 4.66.1
+2023-08-21 20:38:54,131:INFO:               numpy: 1.23.5
+2023-08-21 20:38:54,131:INFO:              pandas: 1.5.3
+2023-08-21 20:38:54,131:INFO:              jinja2: 3.1.2
+2023-08-21 20:38:54,131:INFO:               scipy: 1.11.2
+2023-08-21 20:38:54,131:INFO:              joblib: 1.3.2
+2023-08-21 20:38:54,131:INFO:             sklearn: 1.2.2
+2023-08-21 20:38:54,131:INFO:                pyod: 1.1.0
+2023-08-21 20:38:54,131:INFO:            imblearn: 0.11.0
+2023-08-21 20:38:54,131:INFO:   category_encoders: 2.6.2
+2023-08-21 20:38:54,131:INFO:            lightgbm: 4.0.0
+2023-08-21 20:38:54,131:INFO:               numba: 0.57.1
+2023-08-21 20:38:54,131:INFO:            requests: 2.31.0
+2023-08-21 20:38:54,131:INFO:          matplotlib: 3.7.2
+2023-08-21 20:38:54,131:INFO:          scikitplot: 0.3.7
+2023-08-21 20:38:54,131:INFO:         yellowbrick: 1.5
+2023-08-21 20:38:54,131:INFO:              plotly: 5.16.1
+2023-08-21 20:38:54,131:INFO:    plotly-resampler: Not installed
+2023-08-21 20:38:54,131:INFO:             kaleido: 0.2.1
+2023-08-21 20:38:54,131:INFO:           schemdraw: 0.15
+2023-08-21 20:38:54,131:INFO:         statsmodels: 0.14.0
+2023-08-21 20:38:54,131:INFO:              sktime: 0.22.0
+2023-08-21 20:38:54,131:INFO:               tbats: 1.1.3
+2023-08-21 20:38:54,131:INFO:            pmdarima: 2.0.3
+2023-08-21 20:38:54,131:INFO:              psutil: 5.9.5
+2023-08-21 20:38:54,131:INFO:          markupsafe: 2.1.3
+2023-08-21 20:38:54,132:INFO:             pickle5: Not installed
+2023-08-21 20:38:54,132:INFO:         cloudpickle: 2.2.1
+2023-08-21 20:38:54,132:INFO:         deprecation: 2.1.0
+2023-08-21 20:38:54,132:INFO:              xxhash: 3.3.0
+2023-08-21 20:38:54,132:INFO:           wurlitzer: Not installed
+2023-08-21 20:38:54,132:INFO:PyCaret optional dependencies:
+2023-08-21 20:38:54,140:INFO:                shap: Not installed
+2023-08-21 20:38:54,140:INFO:           interpret: Not installed
+2023-08-21 20:38:54,140:INFO:                umap: Not installed
+2023-08-21 20:38:54,140:INFO:    pandas_profiling: 4.5.1
+2023-08-21 20:38:54,140:INFO:  explainerdashboard: Not installed
+2023-08-21 20:38:54,140:INFO:             autoviz: Not installed
+2023-08-21 20:38:54,140:INFO:           fairlearn: Not installed
+2023-08-21 20:38:54,140:INFO:          deepchecks: Not installed
+2023-08-21 20:38:54,140:INFO:             xgboost: Not installed
+2023-08-21 20:38:54,140:INFO:            catboost: Not installed
+2023-08-21 20:38:54,140:INFO:              kmodes: Not installed
+2023-08-21 20:38:54,140:INFO:             mlxtend: Not installed
+2023-08-21 20:38:54,140:INFO:       statsforecast: Not installed
+2023-08-21 20:38:54,140:INFO:        tune_sklearn: Not installed
+2023-08-21 20:38:54,140:INFO:                 ray: Not installed
+2023-08-21 20:38:54,140:INFO:            hyperopt: Not installed
+2023-08-21 20:38:54,140:INFO:              optuna: Not installed
+2023-08-21 20:38:54,140:INFO:               skopt: Not installed
+2023-08-21 20:38:54,140:INFO:              mlflow: Not installed
+2023-08-21 20:38:54,140:INFO:              gradio: Not installed
+2023-08-21 20:38:54,142:INFO:             fastapi: Not installed
+2023-08-21 20:38:54,142:INFO:             uvicorn: Not installed
+2023-08-21 20:38:54,142:INFO:              m2cgen: Not installed
+2023-08-21 20:38:54,142:INFO:           evidently: Not installed
+2023-08-21 20:38:54,142:INFO:               fugue: Not installed
+2023-08-21 20:38:54,142:INFO:           streamlit: 1.25.0
+2023-08-21 20:38:54,142:INFO:             prophet: Not installed
+2023-08-21 20:38:54,142:INFO:None
+2023-08-21 20:38:54,142:INFO:Set up data.
+2023-08-21 20:38:54,149:INFO:Set up train/test split.
+2023-08-21 20:39:08,531:INFO:PyCaret ClassificationExperiment
+2023-08-21 20:39:08,533:INFO:Logging name: clf-default-name
+2023-08-21 20:39:08,533:INFO:ML Usecase: MLUsecase.CLASSIFICATION
+2023-08-21 20:39:08,533:INFO:version 3.0.4
+2023-08-21 20:39:08,533:INFO:Initializing setup()
+2023-08-21 20:39:08,533:INFO:self.USI: b1e6
+2023-08-21 20:39:08,533:INFO:self._variable_keys: {'n_jobs_param', 'gpu_n_jobs_param', 'fold_shuffle_param', 'fold_generator', 'y_test', 'is_multiclass', 'X', 'html_param', 'X_train', 'idx', 'seed', '_ml_usecase', 'X_test', '_available_plots', 'target_param', 'data', 'fix_imbalance', 'pipeline', 'y_train', 'USI', 'memory', 'exp_name_log', 'y', 'log_plots_param', 'logging_param', 'gpu_param', 'fold_groups_param', 'exp_id'}
+2023-08-21 20:39:08,533:INFO:Checking environment
+2023-08-21 20:39:08,533:INFO:python_version: 3.9.17
+2023-08-21 20:39:08,533:INFO:python_build: ('main', 'Jul  5 2023 20:47:11')
+2023-08-21 20:39:08,533:INFO:machine: AMD64
+2023-08-21 20:39:08,533:INFO:platform: Windows-10-10.0.22621-SP0
+2023-08-21 20:39:08,539:INFO:Memory: svmem(total=7893950464, available=529371136, percent=93.3, used=7364579328, free=529371136)
+2023-08-21 20:39:08,539:INFO:Physical Core: 6
+2023-08-21 20:39:08,539:INFO:Logical Core: 12
+2023-08-21 20:39:08,539:INFO:Checking libraries
+2023-08-21 20:39:08,539:INFO:System:
+2023-08-21 20:39:08,540:INFO:    python: 3.9.17 (main, Jul  5 2023, 20:47:11) [MSC v.1916 64 bit (AMD64)]
+2023-08-21 20:39:08,540:INFO:executable: C:\Users\atharva\anaconda3\envs\streamlit\python.exe
+2023-08-21 20:39:08,540:INFO:   machine: Windows-10-10.0.22621-SP0
+2023-08-21 20:39:08,540:INFO:PyCaret required dependencies:
+2023-08-21 20:39:08,540:INFO:                 pip: 23.2.1
+2023-08-21 20:39:08,540:INFO:          setuptools: 68.0.0
+2023-08-21 20:39:08,540:INFO:             pycaret: 3.0.4
+2023-08-21 20:39:08,540:INFO:             IPython: 8.14.0
+2023-08-21 20:39:08,540:INFO:          ipywidgets: 8.1.0
+2023-08-21 20:39:08,540:INFO:                tqdm: 4.66.1
+2023-08-21 20:39:08,540:INFO:               numpy: 1.23.5
+2023-08-21 20:39:08,540:INFO:              pandas: 1.5.3
+2023-08-21 20:39:08,540:INFO:              jinja2: 3.1.2
+2023-08-21 20:39:08,540:INFO:               scipy: 1.11.2
+2023-08-21 20:39:08,540:INFO:              joblib: 1.3.2
+2023-08-21 20:39:08,540:INFO:             sklearn: 1.2.2
+2023-08-21 20:39:08,540:INFO:                pyod: 1.1.0
+2023-08-21 20:39:08,540:INFO:            imblearn: 0.11.0
+2023-08-21 20:39:08,540:INFO:   category_encoders: 2.6.2
+2023-08-21 20:39:08,540:INFO:            lightgbm: 4.0.0
+2023-08-21 20:39:08,540:INFO:               numba: 0.57.1
+2023-08-21 20:39:08,540:INFO:            requests: 2.31.0
+2023-08-21 20:39:08,540:INFO:          matplotlib: 3.7.2
+2023-08-21 20:39:08,540:INFO:          scikitplot: 0.3.7
+2023-08-21 20:39:08,540:INFO:         yellowbrick: 1.5
+2023-08-21 20:39:08,540:INFO:              plotly: 5.16.1
+2023-08-21 20:39:08,540:INFO:    plotly-resampler: Not installed
+2023-08-21 20:39:08,540:INFO:             kaleido: 0.2.1
+2023-08-21 20:39:08,540:INFO:           schemdraw: 0.15
+2023-08-21 20:39:08,541:INFO:         statsmodels: 0.14.0
+2023-08-21 20:39:08,541:INFO:              sktime: 0.22.0
+2023-08-21 20:39:08,541:INFO:               tbats: 1.1.3
+2023-08-21 20:39:08,541:INFO:            pmdarima: 2.0.3
+2023-08-21 20:39:08,541:INFO:              psutil: 5.9.5
+2023-08-21 20:39:08,541:INFO:          markupsafe: 2.1.3
+2023-08-21 20:39:08,541:INFO:             pickle5: Not installed
+2023-08-21 20:39:08,541:INFO:         cloudpickle: 2.2.1
+2023-08-21 20:39:08,541:INFO:         deprecation: 2.1.0
+2023-08-21 20:39:08,541:INFO:              xxhash: 3.3.0
+2023-08-21 20:39:08,541:INFO:           wurlitzer: Not installed
+2023-08-21 20:39:08,541:INFO:PyCaret optional dependencies:
+2023-08-21 20:39:08,541:INFO:                shap: Not installed
+2023-08-21 20:39:08,541:INFO:           interpret: Not installed
+2023-08-21 20:39:08,541:INFO:                umap: Not installed
+2023-08-21 20:39:08,541:INFO:    pandas_profiling: 4.5.1
+2023-08-21 20:39:08,541:INFO:  explainerdashboard: Not installed
+2023-08-21 20:39:08,541:INFO:             autoviz: Not installed
+2023-08-21 20:39:08,541:INFO:           fairlearn: Not installed
+2023-08-21 20:39:08,541:INFO:          deepchecks: Not installed
+2023-08-21 20:39:08,541:INFO:             xgboost: Not installed
+2023-08-21 20:39:08,541:INFO:            catboost: Not installed
+2023-08-21 20:39:08,541:INFO:              kmodes: Not installed
+2023-08-21 20:39:08,541:INFO:             mlxtend: Not installed
+2023-08-21 20:39:08,541:INFO:       statsforecast: Not installed
+2023-08-21 20:39:08,541:INFO:        tune_sklearn: Not installed
+2023-08-21 20:39:08,541:INFO:                 ray: Not installed
+2023-08-21 20:39:08,541:INFO:            hyperopt: Not installed
+2023-08-21 20:39:08,542:INFO:              optuna: Not installed
+2023-08-21 20:39:08,542:INFO:               skopt: Not installed
+2023-08-21 20:39:08,542:INFO:              mlflow: Not installed
+2023-08-21 20:39:08,542:INFO:              gradio: Not installed
+2023-08-21 20:39:08,542:INFO:             fastapi: Not installed
+2023-08-21 20:39:08,542:INFO:             uvicorn: Not installed
+2023-08-21 20:39:08,542:INFO:              m2cgen: Not installed
+2023-08-21 20:39:08,542:INFO:           evidently: Not installed
+2023-08-21 20:39:08,542:INFO:               fugue: Not installed
+2023-08-21 20:39:08,542:INFO:           streamlit: 1.25.0
+2023-08-21 20:39:08,542:INFO:             prophet: Not installed
+2023-08-21 20:39:08,542:INFO:None
+2023-08-21 20:39:08,542:INFO:Set up data.
+2023-08-21 20:39:23,186:INFO:PyCaret ClassificationExperiment
+2023-08-21 20:39:23,186:INFO:Logging name: clf-default-name
+2023-08-21 20:39:23,186:INFO:ML Usecase: MLUsecase.CLASSIFICATION
+2023-08-21 20:39:23,187:INFO:version 3.0.4
+2023-08-21 20:39:23,187:INFO:Initializing setup()
+2023-08-21 20:39:23,187:INFO:self.USI: 8d5d
+2023-08-21 20:39:23,187:INFO:self._variable_keys: {'n_jobs_param', 'gpu_n_jobs_param', 'fold_shuffle_param', 'fold_generator', 'y_test', 'is_multiclass', 'X', 'html_param', 'X_train', 'idx', 'seed', '_ml_usecase', 'X_test', '_available_plots', 'target_param', 'data', 'fix_imbalance', 'pipeline', 'y_train', 'USI', 'memory', 'exp_name_log', 'y', 'log_plots_param', 'logging_param', 'gpu_param', 'fold_groups_param', 'exp_id'}
+2023-08-21 20:39:23,187:INFO:Checking environment
+2023-08-21 20:39:23,187:INFO:python_version: 3.9.17
+2023-08-21 20:39:23,187:INFO:python_build: ('main', 'Jul  5 2023 20:47:11')
+2023-08-21 20:39:23,187:INFO:machine: AMD64
+2023-08-21 20:39:23,187:INFO:platform: Windows-10-10.0.22621-SP0
+2023-08-21 20:39:23,193:INFO:Memory: svmem(total=7893950464, available=357146624, percent=95.5, used=7536803840, free=357146624)
+2023-08-21 20:39:23,193:INFO:Physical Core: 6
+2023-08-21 20:39:23,193:INFO:Logical Core: 12
+2023-08-21 20:39:23,193:INFO:Checking libraries
+2023-08-21 20:39:23,193:INFO:System:
+2023-08-21 20:39:23,193:INFO:    python: 3.9.17 (main, Jul  5 2023, 20:47:11) [MSC v.1916 64 bit (AMD64)]
+2023-08-21 20:39:23,193:INFO:executable: C:\Users\atharva\anaconda3\envs\streamlit\python.exe
+2023-08-21 20:39:23,193:INFO:   machine: Windows-10-10.0.22621-SP0
+2023-08-21 20:39:23,193:INFO:PyCaret required dependencies:
+2023-08-21 20:39:23,193:INFO:                 pip: 23.2.1
+2023-08-21 20:39:23,193:INFO:          setuptools: 68.0.0
+2023-08-21 20:39:23,193:INFO:             pycaret: 3.0.4
+2023-08-21 20:39:23,193:INFO:             IPython: 8.14.0
+2023-08-21 20:39:23,193:INFO:          ipywidgets: 8.1.0
+2023-08-21 20:39:23,193:INFO:                tqdm: 4.66.1
+2023-08-21 20:39:23,193:INFO:               numpy: 1.23.5
+2023-08-21 20:39:23,193:INFO:              pandas: 1.5.3
+2023-08-21 20:39:23,193:INFO:              jinja2: 3.1.2
+2023-08-21 20:39:23,193:INFO:               scipy: 1.11.2
+2023-08-21 20:39:23,193:INFO:              joblib: 1.3.2
+2023-08-21 20:39:23,193:INFO:             sklearn: 1.2.2
+2023-08-21 20:39:23,193:INFO:                pyod: 1.1.0
+2023-08-21 20:39:23,193:INFO:            imblearn: 0.11.0
+2023-08-21 20:39:23,193:INFO:   category_encoders: 2.6.2
+2023-08-21 20:39:23,193:INFO:            lightgbm: 4.0.0
+2023-08-21 20:39:23,193:INFO:               numba: 0.57.1
+2023-08-21 20:39:23,193:INFO:            requests: 2.31.0
+2023-08-21 20:39:23,193:INFO:          matplotlib: 3.7.2
+2023-08-21 20:39:23,193:INFO:          scikitplot: 0.3.7
+2023-08-21 20:39:23,193:INFO:         yellowbrick: 1.5
+2023-08-21 20:39:23,193:INFO:              plotly: 5.16.1
+2023-08-21 20:39:23,193:INFO:    plotly-resampler: Not installed
+2023-08-21 20:39:23,193:INFO:             kaleido: 0.2.1
+2023-08-21 20:39:23,193:INFO:           schemdraw: 0.15
+2023-08-21 20:39:23,193:INFO:         statsmodels: 0.14.0
+2023-08-21 20:39:23,193:INFO:              sktime: 0.22.0
+2023-08-21 20:39:23,193:INFO:               tbats: 1.1.3
+2023-08-21 20:39:23,193:INFO:            pmdarima: 2.0.3
+2023-08-21 20:39:23,193:INFO:              psutil: 5.9.5
+2023-08-21 20:39:23,193:INFO:          markupsafe: 2.1.3
+2023-08-21 20:39:23,193:INFO:             pickle5: Not installed
+2023-08-21 20:39:23,193:INFO:         cloudpickle: 2.2.1
+2023-08-21 20:39:23,193:INFO:         deprecation: 2.1.0
+2023-08-21 20:39:23,193:INFO:              xxhash: 3.3.0
+2023-08-21 20:39:23,198:INFO:           wurlitzer: Not installed
+2023-08-21 20:39:23,198:INFO:PyCaret optional dependencies:
+2023-08-21 20:39:23,198:INFO:                shap: Not installed
+2023-08-21 20:39:23,198:INFO:           interpret: Not installed
+2023-08-21 20:39:23,198:INFO:                umap: Not installed
+2023-08-21 20:39:23,198:INFO:    pandas_profiling: 4.5.1
+2023-08-21 20:39:23,198:INFO:  explainerdashboard: Not installed
+2023-08-21 20:39:23,198:INFO:             autoviz: Not installed
+2023-08-21 20:39:23,198:INFO:           fairlearn: Not installed
+2023-08-21 20:39:23,198:INFO:          deepchecks: Not installed
+2023-08-21 20:39:23,198:INFO:             xgboost: Not installed
+2023-08-21 20:39:23,198:INFO:            catboost: Not installed
+2023-08-21 20:39:23,198:INFO:              kmodes: Not installed
+2023-08-21 20:39:23,198:INFO:             mlxtend: Not installed
+2023-08-21 20:39:23,198:INFO:       statsforecast: Not installed
+2023-08-21 20:39:23,198:INFO:        tune_sklearn: Not installed
+2023-08-21 20:39:23,198:INFO:                 ray: Not installed
+2023-08-21 20:39:23,198:INFO:            hyperopt: Not installed
+2023-08-21 20:39:23,198:INFO:              optuna: Not installed
+2023-08-21 20:39:23,199:INFO:               skopt: Not installed
+2023-08-21 20:39:23,199:INFO:              mlflow: Not installed
+2023-08-21 20:39:23,199:INFO:              gradio: Not installed
+2023-08-21 20:39:23,199:INFO:             fastapi: Not installed
+2023-08-21 20:39:23,199:INFO:             uvicorn: Not installed
+2023-08-21 20:39:23,199:INFO:              m2cgen: Not installed
+2023-08-21 20:39:23,199:INFO:           evidently: Not installed
+2023-08-21 20:39:23,199:INFO:               fugue: Not installed
+2023-08-21 20:39:23,199:INFO:           streamlit: 1.25.0
+2023-08-21 20:39:23,199:INFO:             prophet: Not installed
+2023-08-21 20:39:23,199:INFO:None
+2023-08-21 20:39:23,199:INFO:Set up data.
+2023-08-21 20:41:44,699:INFO:PyCaret ClassificationExperiment
+2023-08-21 20:41:44,699:INFO:Logging name: clf-default-name
+2023-08-21 20:41:44,700:INFO:ML Usecase: MLUsecase.CLASSIFICATION
+2023-08-21 20:41:44,700:INFO:version 3.0.4
+2023-08-21 20:41:44,700:INFO:Initializing setup()
+2023-08-21 20:41:44,700:INFO:self.USI: 3e0d
+2023-08-21 20:41:44,700:INFO:self._variable_keys: {'n_jobs_param', 'gpu_n_jobs_param', 'fold_shuffle_param', 'fold_generator', 'y_test', 'is_multiclass', 'X', 'html_param', 'X_train', 'idx', 'seed', '_ml_usecase', 'X_test', '_available_plots', 'target_param', 'data', 'fix_imbalance', 'pipeline', 'y_train', 'USI', 'memory', 'exp_name_log', 'y', 'log_plots_param', 'logging_param', 'gpu_param', 'fold_groups_param', 'exp_id'}
+2023-08-21 20:41:44,700:INFO:Checking environment
+2023-08-21 20:41:44,700:INFO:python_version: 3.9.17
+2023-08-21 20:41:44,701:INFO:python_build: ('main', 'Jul  5 2023 20:47:11')
+2023-08-21 20:41:44,701:INFO:machine: AMD64
+2023-08-21 20:41:44,701:INFO:platform: Windows-10-10.0.22621-SP0
+2023-08-21 20:41:44,707:INFO:Memory: svmem(total=7893950464, available=773713920, percent=90.2, used=7120236544, free=773713920)
+2023-08-21 20:41:44,707:INFO:Physical Core: 6
+2023-08-21 20:41:44,707:INFO:Logical Core: 12
+2023-08-21 20:41:44,707:INFO:Checking libraries
+2023-08-21 20:41:44,707:INFO:System:
+2023-08-21 20:41:44,707:INFO:    python: 3.9.17 (main, Jul  5 2023, 20:47:11) [MSC v.1916 64 bit (AMD64)]
+2023-08-21 20:41:44,707:INFO:executable: C:\Users\atharva\anaconda3\envs\streamlit\python.exe
+2023-08-21 20:41:44,707:INFO:   machine: Windows-10-10.0.22621-SP0
+2023-08-21 20:41:44,707:INFO:PyCaret required dependencies:
+2023-08-21 20:41:44,707:INFO:                 pip: 23.2.1
+2023-08-21 20:41:44,707:INFO:          setuptools: 68.0.0
+2023-08-21 20:41:44,707:INFO:             pycaret: 3.0.4
+2023-08-21 20:41:44,707:INFO:             IPython: 8.14.0
+2023-08-21 20:41:44,707:INFO:          ipywidgets: 8.1.0
+2023-08-21 20:41:44,707:INFO:                tqdm: 4.66.1
+2023-08-21 20:41:44,708:INFO:               numpy: 1.23.5
+2023-08-21 20:41:44,708:INFO:              pandas: 1.5.3
+2023-08-21 20:41:44,708:INFO:              jinja2: 3.1.2
+2023-08-21 20:41:44,708:INFO:               scipy: 1.11.2
+2023-08-21 20:41:44,708:INFO:              joblib: 1.3.2
+2023-08-21 20:41:44,708:INFO:             sklearn: 1.2.2
+2023-08-21 20:41:44,708:INFO:                pyod: 1.1.0
+2023-08-21 20:41:44,708:INFO:            imblearn: 0.11.0
+2023-08-21 20:41:44,708:INFO:   category_encoders: 2.6.2
+2023-08-21 20:41:44,708:INFO:            lightgbm: 4.0.0
+2023-08-21 20:41:44,708:INFO:               numba: 0.57.1
+2023-08-21 20:41:44,708:INFO:            requests: 2.31.0
+2023-08-21 20:41:44,708:INFO:          matplotlib: 3.7.2
+2023-08-21 20:41:44,708:INFO:          scikitplot: 0.3.7
+2023-08-21 20:41:44,708:INFO:         yellowbrick: 1.5
+2023-08-21 20:41:44,708:INFO:              plotly: 5.16.1
+2023-08-21 20:41:44,708:INFO:    plotly-resampler: Not installed
+2023-08-21 20:41:44,708:INFO:             kaleido: 0.2.1
+2023-08-21 20:41:44,708:INFO:           schemdraw: 0.15
+2023-08-21 20:41:44,708:INFO:         statsmodels: 0.14.0
+2023-08-21 20:41:44,708:INFO:              sktime: 0.22.0
+2023-08-21 20:41:44,708:INFO:               tbats: 1.1.3
+2023-08-21 20:41:44,708:INFO:            pmdarima: 2.0.3
+2023-08-21 20:41:44,708:INFO:              psutil: 5.9.5
+2023-08-21 20:41:44,708:INFO:          markupsafe: 2.1.3
+2023-08-21 20:41:44,708:INFO:             pickle5: Not installed
+2023-08-21 20:41:44,708:INFO:         cloudpickle: 2.2.1
+2023-08-21 20:41:44,708:INFO:         deprecation: 2.1.0
+2023-08-21 20:41:44,708:INFO:              xxhash: 3.3.0
+2023-08-21 20:41:44,708:INFO:           wurlitzer: Not installed
+2023-08-21 20:41:44,708:INFO:PyCaret optional dependencies:
+2023-08-21 20:41:44,709:INFO:                shap: Not installed
+2023-08-21 20:41:44,709:INFO:           interpret: Not installed
+2023-08-21 20:41:44,709:INFO:                umap: Not installed
+2023-08-21 20:41:44,709:INFO:    pandas_profiling: 4.5.1
+2023-08-21 20:41:44,709:INFO:  explainerdashboard: Not installed
+2023-08-21 20:41:44,709:INFO:             autoviz: Not installed
+2023-08-21 20:41:44,709:INFO:           fairlearn: Not installed
+2023-08-21 20:41:44,709:INFO:          deepchecks: Not installed
+2023-08-21 20:41:44,709:INFO:             xgboost: Not installed
+2023-08-21 20:41:44,709:INFO:            catboost: Not installed
+2023-08-21 20:41:44,709:INFO:              kmodes: Not installed
+2023-08-21 20:41:44,709:INFO:             mlxtend: Not installed
+2023-08-21 20:41:44,709:INFO:       statsforecast: Not installed
+2023-08-21 20:41:44,709:INFO:        tune_sklearn: Not installed
+2023-08-21 20:41:44,709:INFO:                 ray: Not installed
+2023-08-21 20:41:44,709:INFO:            hyperopt: Not installed
+2023-08-21 20:41:44,709:INFO:              optuna: Not installed
+2023-08-21 20:41:44,709:INFO:               skopt: Not installed
+2023-08-21 20:41:44,709:INFO:              mlflow: Not installed
+2023-08-21 20:41:44,709:INFO:              gradio: Not installed
+2023-08-21 20:41:44,709:INFO:             fastapi: Not installed
+2023-08-21 20:41:44,709:INFO:             uvicorn: Not installed
+2023-08-21 20:41:44,709:INFO:              m2cgen: Not installed
+2023-08-21 20:41:44,709:INFO:           evidently: Not installed
+2023-08-21 20:41:44,709:INFO:               fugue: Not installed
+2023-08-21 20:41:44,709:INFO:           streamlit: 1.25.0
+2023-08-21 20:41:44,709:INFO:             prophet: Not installed
+2023-08-21 20:41:44,709:INFO:None
+2023-08-21 20:41:44,710:INFO:Set up data.
+2023-08-21 20:41:44,719:INFO:Set up train/test split.
+2023-08-21 20:41:44,731:INFO:Set up index.
+2023-08-21 20:41:44,732:INFO:Set up folding strategy.
+2023-08-21 20:41:44,732:INFO:Assigning column types.
+2023-08-21 20:41:44,737:INFO:Engine successfully changes for model 'lr' to 'sklearn'.
+2023-08-21 20:41:44,787:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2023-08-21 20:41:44,789:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2023-08-21 20:41:44,830:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-08-21 20:41:44,830:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-08-21 20:41:44,892:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2023-08-21 20:41:44,894:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2023-08-21 20:41:44,933:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-08-21 20:41:44,934:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-08-21 20:41:44,934:INFO:Engine successfully changes for model 'knn' to 'sklearn'.
+2023-08-21 20:41:44,993:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2023-08-21 20:41:45,035:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-08-21 20:41:45,035:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-08-21 20:41:45,105:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2023-08-21 20:41:45,135:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-08-21 20:41:45,136:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-08-21 20:41:45,136:INFO:Engine successfully changes for model 'rbfsvm' to 'sklearn'.
+2023-08-21 20:41:45,224:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-08-21 20:41:45,224:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-08-21 20:41:45,323:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-08-21 20:41:45,324:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-08-21 20:41:45,330:INFO:Preparing preprocessing pipeline...
+2023-08-21 20:41:45,332:INFO:Set up simple imputation.
+2023-08-21 20:41:45,335:INFO:Set up encoding of ordinal features.
+2023-08-21 20:41:45,336:INFO:Set up encoding of categorical features.
+2023-08-21 20:41:45,337:INFO:Set up removing outliers.
+2023-08-21 21:34:37,876:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-08-21 21:34:37,877:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-08-21 21:34:37,877:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-08-21 21:34:37,877:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-08-21 21:34:41,993:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\numba\core\decorators.py:262: NumbaDeprecationWarning: [1mnumba.generated_jit is deprecated. Please see the documentation at: https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-generated-jit for more information and advice on a suitable replacement.[0m
+  warnings.warn(msg, NumbaDeprecationWarning)
+
+2023-08-21 21:34:42,073:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\visions\backends\shared\nan_handling.py:51: NumbaDeprecationWarning: [1mThe 'nopython' keyword argument was not supplied to the 'numba.jit' decorator. The implicit default value for this argument is currently False, but it will be changed to True in Numba 0.59.0. See https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit for details.[0m
+  def hasna(x: np.ndarray) -> bool:
+
+2023-08-21 21:34:42,507:WARNING:C:\Users\atharva\Desktop\automl\app.py:6: DeprecationWarning: `import pandas_profiling` is going to be deprecated by April 1st. Please use `import ydata_profiling` instead.
+  import pandas_profiling
+
+2023-08-21 21:59:31,421:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 21:59:31,510:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 21:59:31,582:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 21:59:31,650:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 21:59:31,715:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 21:59:34,002:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 21:59:34,092:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 21:59:34,164:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 21:59:34,246:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 21:59:34,320:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 21:59:35,830:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 21:59:35,941:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 21:59:36,013:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 21:59:36,093:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 21:59:36,173:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 21:59:36,270:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 21:59:36,359:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 21:59:36,424:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 21:59:36,500:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 21:59:36,576:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 21:59:44,160:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 21:59:44,230:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 21:59:44,287:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 21:59:44,341:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 21:59:44,395:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 21:59:44,453:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 21:59:44,533:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 21:59:44,590:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 21:59:44,640:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 21:59:44,694:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 21:59:46,410:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 21:59:46,513:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 21:59:46,601:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 21:59:46,688:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 21:59:46,775:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 21:59:46,860:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 21:59:46,994:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 21:59:47,100:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 21:59:47,210:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 21:59:47,323:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 21:59:47,435:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 21:59:47,540:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 21:59:47,625:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 21:59:47,720:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 21:59:47,820:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 21:59:49,570:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 21:59:49,623:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 21:59:49,675:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 21:59:49,720:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 21:59:49,761:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:00:04,381:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:00:04,493:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:00:04,551:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:00:04,596:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:00:04,651:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:00:05,027:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:00:05,099:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:00:05,155:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:00:05,211:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:00:05,271:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:00:06,216:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:00:06,281:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:00:06,331:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:00:06,381:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:00:06,432:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:00:06,481:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:00:06,541:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:00:06,591:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:00:06,641:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:00:06,691:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:00:07,645:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:00:07,731:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:00:07,801:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:00:07,851:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:00:07,906:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:00:10,256:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:00:10,311:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:00:10,361:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:00:10,411:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:00:10,456:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:00:10,511:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:00:10,591:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:00:10,656:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:00:10,724:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:00:10,786:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:00:10,853:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:00:10,934:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:00:10,984:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:00:11,038:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:00:11,081:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:00:21,211:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:00:21,271:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:00:21,346:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:00:21,411:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:00:21,472:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:00:23,107:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:00:23,191:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:00:23,261:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:00:23,326:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:00:23,392:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:00:23,466:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:00:23,497:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:00:23,537:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:00:23,569:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:51:00,658:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-08-21 22:51:00,658:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-08-21 22:51:00,658:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-08-21 22:51:00,658:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-08-21 22:51:04,831:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\numba\core\decorators.py:262: NumbaDeprecationWarning: [1mnumba.generated_jit is deprecated. Please see the documentation at: https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-generated-jit for more information and advice on a suitable replacement.[0m
+  warnings.warn(msg, NumbaDeprecationWarning)
+
+2023-08-21 22:51:04,907:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\visions\backends\shared\nan_handling.py:51: NumbaDeprecationWarning: [1mThe 'nopython' keyword argument was not supplied to the 'numba.jit' decorator. The implicit default value for this argument is currently False, but it will be changed to True in Numba 0.59.0. See https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit for details.[0m
+  def hasna(x: np.ndarray) -> bool:
+
+2023-08-21 22:51:05,381:WARNING:C:\Users\atharva\Desktop\automl\app.py:6: DeprecationWarning: `import pandas_profiling` is going to be deprecated by April 1st. Please use `import ydata_profiling` instead.
+  import pandas_profiling
+
+2023-08-21 22:53:45,813:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:53:45,887:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:53:45,932:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:53:45,984:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:53:46,043:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:53:46,093:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:53:46,153:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:53:46,216:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:53:46,267:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:53:46,313:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:53:47,285:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:53:47,351:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:53:47,428:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:53:47,493:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:53:47,559:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:53:47,668:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:53:47,763:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:53:47,852:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:53:47,925:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:53:47,993:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:53:48,490:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:53:48,543:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:53:48,608:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:53:48,669:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:53:48,727:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:53:48,787:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:53:48,839:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:53:48,897:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:53:48,943:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:53:48,993:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:53:51,243:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:53:51,307:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:53:51,369:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:53:51,427:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:53:51,479:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:53:52,153:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:53:52,228:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:53:52,279:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:53:52,328:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:53:52,388:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:54:04,576:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:54:04,593:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:54:04,616:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:25,798:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:25,876:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:25,925:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:25,965:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:26,019:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:26,378:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:26,443:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:26,489:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:26,531:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:26,604:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:27,403:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:27,455:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:27,496:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:27,527:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:27,567:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:27,603:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:27,648:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:27,688:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:27,727:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:27,758:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:27,799:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:27,838:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:27,887:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:27,922:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:27,953:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:29,339:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:29,390:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:29,439:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:29,487:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:29,535:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:30,573:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:30,633:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:30,693:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:30,747:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:30,807:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:31,403:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:31,475:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:31,533:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:31,594:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:31,649:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:35,627:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:35,685:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:35,739:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:35,788:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:35,839:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:37,154:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:37,234:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:37,294:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:37,359:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:37,419:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:39,769:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:39,834:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:39,899:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:39,944:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:39,994:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:43,518:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:43,584:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:43,642:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:43,690:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:43,739:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:44,899:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:44,966:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:45,030:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:45,094:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:45,154:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:46,048:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:46,124:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:46,174:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:46,218:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:46,266:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:46,321:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:46,402:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:46,475:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:46,549:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:46,620:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:48,789:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:48,839:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:48,884:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:48,929:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:48,969:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:49,409:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:49,477:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:49,539:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:49,594:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:49,658:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:50,054:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:50,109:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:50,162:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:50,209:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:50,267:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:51,289:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:51,369:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:51,447:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:51,609:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:51,686:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:52,251:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:52,350:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:52,426:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:52,474:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:52,524:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:53,004:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:53,079:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:53,175:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:53,239:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:53,299:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:53,829:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:53,896:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:53,950:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:54,007:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:54,054:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:55,024:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
+2023-08-21 22:59:55,039:WARNING:C:\Users\atharva\anaconda3\envs\streamlit\lib\site-packages\xgboost\sklearn.py:1395: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
+  warnings.warn("`use_label_encoder` is deprecated in 1.7.0.")
+
